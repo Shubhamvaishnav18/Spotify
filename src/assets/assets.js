@@ -180,3 +180,54 @@ export const songsData = [
         duration:"2:35"
     }
 ]
+
+export const podcastAlbums = [
+    {   
+        id:10,
+        name: "Top Podcasts",
+        image: img13,
+        desc:"The most popular podcasts right now",
+        bgColor:"#4c1d95"
+    },
+    {   
+        id:11,
+        name: "True Crime",
+        image: img6,
+        desc:"Chilling true crime stories",
+        bgColor:"#6b7280"
+    },
+    {   
+        id:12,
+        name: "Comedy Podcasts",
+        image: img7,
+        desc:"Laugh out loud with these shows",
+        bgColor:"#9d174d"
+    }
+]
+
+export const podcastEpisodes = [
+    {
+        id:10,
+        name: "Crime Story: Episode 1",
+        image: img6,
+        file:song1,
+        desc:"The mysterious case of...",
+        duration:"45:20"
+    },
+    {
+        id:11,
+        name: "Comedy Hour",
+        image: img7,
+        file:song2,
+        desc:"Stand-up special featuring...",
+        duration:"58:10"
+    },
+    {
+        id:12,
+        name: "Tech Today",
+        image: img13,
+        file:song3,
+        desc:"Latest in technology news",
+        duration:"32:45"
+    }
+]
